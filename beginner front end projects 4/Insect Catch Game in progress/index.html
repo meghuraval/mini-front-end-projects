@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Insect Catch Game</title>
+  </head>
+  <body>
+    <div class="screen">
+      <h1>catch the insect</h1>
+      <button class="btn" id="start-btn">play game</button>
+    </div>
+
+    <div class="screen">
+      <h1>what would you like to squash today?</h1>
+      <ul class="insects-list">
+        <li>
+          <button class="choose-insect-btn">
+            <p>slithery centipede</p>
+            <img
+              src="https://www.svgrepo.com/show/430039/centipede-40514.svg"
+              alt=""
+            />
+          </button>
+        </li>
+        <li>
+          <button class="choose-insect-btn">
+            <p>creepy crawly spider</p>
+            <img src="https://www.svgrepo.com/show/430043/ant.svg" alt="" />
+          </button>
+        </li>
+        <li>
+          <button class="choose-insect-btn">
+            <p>buzzing bee</p>
+            <img src="https://www.svgrepo.com/show/430023/bee.svg" alt="" />
+          </button>
+        </li>
+      </ul>
+    </div>
+
+    <div class="screen game-container" id="game-container">
+      <h2 id="time" class="time">Time: 00:00</h2>
+      <h3 id="score" class="score">Score: 0</h3>
+      <h5 id="message" class="message">Good job! keep squashing</h5>
+
+    <script src="script.js"></script>
+  </body>
+</html>
